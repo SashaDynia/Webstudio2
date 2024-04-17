@@ -101,18 +101,18 @@ position: relative;
 
 .header-link :hover:after,
 .header-link:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+	width: 100%; 
 }
 
 .active::after {
 	display: block;
 	position: absolute;
-	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	width: 100%;/*задаём длинну линии до наведения курсора*/
-	height: 5px; /*задаём ширину линии*/
-	background-color: #2196F3; /*задаём цвет линии*/
+	left: 0; 
+	width: 100%;
+	height: 5px;
+	background-color: #2196F3;
 	content: '';
-	transition: width 0.2s ease-out; /*задаём время анимации*/
+	transition: width 0.2s ease-out;
   border-radius: 10px;
   margin-top: 28px;
 }
@@ -168,7 +168,6 @@ b {
 }
 
 
-/*?  form-header  */
 
 
 
