@@ -152,11 +152,11 @@ b {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition: all 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
   justify-content: space-around;
 }
 .header-info-item {
-  transition: all 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
 }
 .header-info-item:hover {
   color: #2196F3;
@@ -497,7 +497,7 @@ fill: #FFF;
       border-radius : 4px;
       border: #AFB1B8 solid 1px;
       fill: #AFB1B8;
-  transition: all 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
       }
     .clients-home-item:hover {
       fill: #2196F3;
@@ -606,7 +606,7 @@ letter-spacing: 0.42px;
   padding: 12px;
 fill: #fff;
 border-radius: 50%;
-transition: all 0.3s ease 0s;
+transition: background-color 0.3s ease 0s;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -761,7 +761,7 @@ padding-bottom: 20px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition: all 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
   
   }
   .header-portfolio-link:hover {
@@ -781,13 +781,13 @@ padding-bottom: 20px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    transition: all 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
     justify-content: space-around;
   }
 
   
   .header-portfolio-info-item {
-    transition: all 0.3s ease 0s;
+    transition: background-color 0.3s ease 0s, fill 0.3s ease 0s;
   }
   .header-portfolio-info-item:hover {
     color: #2196F3;
@@ -843,12 +843,11 @@ margin-bottom: 56px;
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;;
 } 
  .filters-portfolio-button:hover {
   background-color: #2196F3;
   color: #FFF;
-
 }
 
 
@@ -991,7 +990,7 @@ letter-spacing: 0.42px;
   padding: 12px;
 fill: #fff;
 border-radius: 50%;
-transition: all 0.3s ease 0s;
+transition: background-color 0.3s ease 0s;
 display: flex;
 justify-content: center;
 align-items: center;
